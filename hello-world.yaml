@@ -7,5 +7,5 @@ metadata:
 spec:
   containers:
   - name: hello-world
-    image: busybox
+    image: registry.suse.com/bci/bci-busybox:latest
     command: ['sh', '-c', 'echo Hello, Universe! I hope this works. && sleep 3600']
