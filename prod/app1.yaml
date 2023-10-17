@@ -23,6 +23,13 @@ spec:
         env:
         - name: ENV_TYPE
           value: "Production"
+        resources:
+          requests:
+            cpu: 500m
+            memory: 512Mi
+          limits:
+            cpu: 1
+            memory: 1Gi
 
 ---
 apiVersion: v1
